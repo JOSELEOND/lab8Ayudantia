@@ -1,0 +1,11 @@
+<script>
+    let count = 5; 
+    const resultElement = document.getElementById('result');
+    const button = document.querySelector('.astro-button');
+  
+    button?.addEventListener('click', () => {
+      count += 50; 
+      resultElement.textContent = count; 
+    });
+</script>
+<button class="astro-button" id="result">5</button>
